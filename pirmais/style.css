@@ -1,0 +1,114 @@
+/* https://coolors.co/2e294e-541388-f1e9da-ffd400-d90368 */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: cursive;
+}
+
+body, p, span, div, input, button {
+    font-family: monospace;
+}
+
+body {
+    background-color: #F1E9DA;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.calculator {
+    background-color: #FFFFFF;
+    border: 3px solid #541388;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.input-container {
+    background-color: #FFD400;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    align-items: center;
+}
+
+.output-container {
+    background-color: #D90368;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    align-items: center;
+    color: white;
+}
+
+.group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.button-group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+input, button {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #2E294E;
+    border-radius: 5px;
+}
+
+button {
+    width: 93%;
+    background: #541388;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2E294E;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+}
+
+.result-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+}
+
+.author {
+    text-align: center;
+    margin-top: 20px;
+    font-family: cursive;
+}
